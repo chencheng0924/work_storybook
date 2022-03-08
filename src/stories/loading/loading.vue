@@ -24,30 +24,51 @@
 <script>
 export default {
   props: {
+    /**
+     * loading是否啟用
+     */
     loading: {
       type: Boolean,
       default: true,
     },
+    /**
+     * loading圖示的size修改
+     */
     size: {
       type: Number,
       default: 100,
     },
+    /**
+     * loading的顏色調整
+     */
     color: {
       type: String,
       default: "#7f58af",
     },
+    /**
+     * loading圖示旋轉的延遲速度(秒數)
+     */
     duration: {
       type: Number,
       default: 1.2,
     },
+    /**
+     * loading文字的修改
+     */
     text: {
       type: String,
       default: "loading...",
     },
+    /**
+     * loading文字的顏色
+     */
     textColor: {
       type: String,
       default: "#333",
     },
+    /**
+     * loading文字的大小
+     */
     textSize: {
       type: Number,
       default: 16
